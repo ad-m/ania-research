@@ -34,6 +34,7 @@ Kompletna strategia kampanii reklamowej Facebook Ads (Meta Ads) dla lokalnego ga
 | 6 | [Optymalizacja i testy](06-optymalizacja-i-testy.md) | Kluczowe metryki (CPC, CTR, CPL, CPA), testy A/B, diagnostyka problemów, szablon raportu |
 | 7 | [Budżet i harmonogram](07-budzet-i-harmonogram.md) | Podział 30 zł/dzień, kampania ciągła vs pulsowa, sezonowość, skalowanie, plan 90 dni |
 | 8 | [Rekomendacje i pro tipy](08-rekomendacje-pro-tipy.md) | Przewaga w małym mieście, typowe błędy gabinetów, checklist przed startem, perspektywa 12-miesięczna |
+| 9 | [Praktyczny poradnik wdrożenia](09-praktyczny-poradnik-wdrozenia.md) | Instalacja Pixela krok po kroku, landing page, skrypty Messenger, no-show management, śledzenie leadów, plan tygodnia 1, produkcja wideo telefonem |
 
 ---
 
@@ -58,7 +59,8 @@ Kompletna strategia kampanii reklamowej Facebook Ads (Meta Ads) dla lokalnego ga
 | Metryka | Miesiąc 1 | Miesiąc 3 | Miesiąc 6 |
 |---|---|---|---|
 | Leady / miesiąc | 5–10 | 10–18 | 15–25 |
-| Wizyty / miesiąc | 2–4 | 4–8 | 7–12 |
+| Umówione wizyty | 2–4 | 4–8 | 7–12 |
+| Wizyty odbyte (~75% show-rate) | 1–3 | 3–6 | 5–9 |
 | CPL | 90–180 zł | 60–100 zł | 50–80 zł |
 | ROAS (z uwzgl. LTV, po korekcie o dropout) | 1–2x | 2–4x | 3–5x |
 

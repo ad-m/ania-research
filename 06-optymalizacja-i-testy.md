@@ -231,7 +231,7 @@ To pomoże Ci zrozumieć:
 
 | Możliwa przyczyna | Rozwiązanie |
 |---|---|
-| Zbyt wolna odpowiedź | Odpowiadaj w ciągu 1h (max 2h) |
+| Zbyt wolna odpowiedź | Odpowiadaj w ciągu 1–2h. Skrypty konwersacyjne → [09-praktyczny-poradnik-wdrozenia.md](09-praktyczny-poradnik-wdrozenia.md), §9.3 |
 | Brak follow-upu | Po 24h bez odpowiedzi → wyślij delikatne przypomnienie |
 | Bariera cenowa | Rozważ ofertę "pierwsza rozmowa wstępna gratis" |
 | Bariera logistyczna | Podaj dokładny adres, parking, dojazd |

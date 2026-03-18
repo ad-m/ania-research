@@ -235,7 +235,7 @@ Napisz wiadomość — odpowiem na Twoje pytania.
 
 ### Format 2: Wideo (Reels / Stories / Feed)
 
-**Najskuteczniejszy format w 2025-2026 — algorytm Meta preferuje wideo.**
+**Najskuteczniejszy format w 2025-2026 — algorytm Meta preferuje wideo.** Praktyczne wskazówki nagrywania telefonem (lighting, audio, editing) → [09-praktyczny-poradnik-wdrozenia.md](09-praktyczny-poradnik-wdrozenia.md), §9.7.
 
 > Według [case study healthcare](https://weareyatter.com/lead-generation-practice-case-study/), wideo na Facebooku osiągało koszt obejrzenia zaledwie $0.01, budując ogromne grupy do retargetingu.
 

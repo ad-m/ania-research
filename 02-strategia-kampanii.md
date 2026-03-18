@@ -199,12 +199,12 @@ Szczegółowe ustawienia targetowania → patrz [03-targetowanie-szczegolowe.md]
 
 ### Tydzień 0 (przygotowanie)
 
-- [ ] Zainstaluj Pixel Facebooka na stronie internetowej gabinetu
+- [ ] Zainstaluj Pixel Facebooka na stronie internetowej gabinetu (instrukcja krok po kroku → [09-praktyczny-poradnik-wdrozenia.md](09-praktyczny-poradnik-wdrozenia.md), §9.1)
 - [ ] Skonfiguruj zdarzenia konwersji (np. "Wyślij formularz", "Kliknij telefon")
 - [ ] Przygotuj 3–4 warianty kreacji reklamowych (grafiki + teksty)
 - [ ] Stwórz Custom Audience z obserwujących fanpage
 - [ ] Stwórz Custom Audience z osób zaangażowanych w posty (ostatnie 90 dni)
-- [ ] Przygotuj automatyczną odpowiedź na Messengerze
+- [ ] Przygotuj automatyczną odpowiedź na Messengerze (skrypty → [09-praktyczny-poradnik-wdrozenia.md](09-praktyczny-poradnik-wdrozenia.md), §9.3)
 
 ### Tydzień 1–2 (start)
 

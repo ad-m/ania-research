@@ -244,7 +244,7 @@ Chętnie porozmawiam o tym, jak mogę Ci pomóc.
 • Preferowany dzień i godzinę
 • Krótko, z czym chciałabyś/chciałbyś pracować
 
-Odezwę się najszybciej jak mogę (zazwyczaj w ciągu kilku godzin).
+Odezwę się osobiście, najczęściej w ciągu 1–2 godzin.
 Do usłyszenia! 🙂
 ```
 
@@ -294,7 +294,9 @@ Anna przychodzi na pierwszą konsultację.
 → Cykl się powtarza.
 ```
 
-### Podsumowanie lejka
+### Podsumowanie lejka (podział docelowy — od miesiąca 2–3)
+
+> **Uwaga:** Poniższy podział 40/35/25 to model teoretyczny pełnego lejka. W praktyce, przy budżecie 30 zł/dzień, upraszczamy go w [07-budzet-i-harmonogram.md](07-budzet-i-harmonogram.md) do: Faza 1 = 100% BOFU, Faza 2 = 40% TOFU / 60% MOFU+BOFU, Faza 3 = 33/50/17. Doc 07 jest wiodący dla konkretnych kwot.
 
 | Etap | Cel | Audience | Treść | Cel Meta Ads | Budżet |
 |---|---|---|---|---|---|
