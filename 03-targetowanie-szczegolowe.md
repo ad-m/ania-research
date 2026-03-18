@@ -10,6 +10,12 @@
 | **Promień** | 25 km |
 | **Opcja obecności** | "Osoby mieszkające w tej lokalizacji" |
 
+### Ważna uwaga o targetowaniu w małych miastach
+
+> Według [analiz polskich ekspertów](https://arturjablonski.com/reklama-lokalna-na-facebooku/) i [danych z kampanii lokalnych](https://zaprojektowani.com/wiedza/facebook-ads-dla-firm-lokalnych-co-dziala-najlepiej/): w miastach poniżej 50 000 mieszkańców **lepiej targetować SZEROKO** (tylko lokalizacja + podstawowa demografia) niż wąsko (lokalizacja + wiele zainteresowań). Dodawanie zbyt wielu filtrów zainteresowań na małym rynku zmniejsza grupę do <1 000 osób, co drastycznie podnosi CPL i utrudnia optymalizację algorytmu.
+>
+> **Praktyczna rada:** Facebook domyślnie ustawia promień 40 km — to za dużo. Ręcznie zmniejsz do 25 km. Ale wewnątrz tego promienia pozwól algorytmowi (Advantage+ Audience) znaleźć najlepszych odbiorców.
+
 ### Dlaczego 25 km?
 
 ```

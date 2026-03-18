@@ -53,7 +53,15 @@ Choć rekomendujemy Messenger jako cel nr 1, warto przetestować oba podejścia 
 | **Automatyzacja** | Wymaga ręcznej odpowiedzi (lub chatbot) | Automatyczny e-mail/SMS po wypełnieniu |
 | **Najlepsze dla** | Małe gabinety z osobistym podejściem | Gabinety z systemem rezerwacji online |
 
-**Rekomendacja:** Zacznij od Messengera (miesiąc 1). W miesiącu 2 uruchom test A/B: Messenger vs Lead Form. Porównaj koszt za lead i konwersję lead→wizyta.
+**Dane porównawcze (2025–2026):**
+- Lead Form Ads mają **~50% niższy CPL** niż Messenger ([Customers.ai](https://customers.ai/blog/facebook-messenger-ads)), ale generują "przypadkowe" leady z auto-fill
+- Messenger Ads dają **53% wyższą konwersję** niż SMS i **61% wyższą** niż e-mail
+- Healthcare CPL na Facebooku: spadł z ~170 zł (Q1 2025) do ~95 zł (Q1 2026) — [SuperAds](https://www.superads.ai/facebook-ads-costs/cost-per-lead/healthcare)
+- Messenger + chatbot automatyzacja może obniżyć **CPA o 40–97%** (case study Customers.ai)
+
+> **Nowa opcja Meta (2025): "Instant Form + Messenger"** — połączenie obu: klient wypełnia formularz (niski próg wejścia), a następnie automatycznie otwiera się konwersacja na Messengerze (kwalifikacja + osobisty kontakt). To najlepsza z obu podejść.
+
+**Rekomendacja:** Zacznij od Messengera (miesiąc 1). W miesiącu 2 uruchom test A/B: Messenger vs Lead Form. Porównaj koszt za lead i konwersję lead→wizyta. W miesiącu 3 rozważ "Instant Form + Messenger" (jeśli dostępne w Twoim regionie).
 
 ---
 
@@ -130,6 +138,8 @@ Meta w 2025–2026 przeszła na model **Advantage+**, który obejmuje znacznie w
 > **Dlaczego to ważne**: Według [danych Meta z 2025](https://brawnmediany.com/blog/how-metas-targeting-works-in-2025-a-complete-guide/), kampanie z Advantage+ Audience mają o **9,7% niższy koszt per lead** niż kampanie z ręcznym targetowaniem. Przy budżecie 30 zł/dzień każdy procent optymalizacji się liczy.
 
 **Praktyczna rekomendacja dla 30 zł/dzień:** Włącz Advantage+ Audience z "sugestiami" (dawniej "szczegółowe targetowanie") zamiast sztywnych zainteresowań. Ustaw: lokalizacja 25 km od Grójca + kobiety 28–50 lat + jako sugestie dodaj 2–3 zainteresowania. Algorytm rozszerzy zasięg tam, gdzie widzi szansę na konwersję.
+
+> **Ostrzeżenie (dane Wicked Reports, czerwiec 2025):** Advantage+ może faworyzować istniejących klientów (wyższy współczynnik konwersji) kosztem nowych. Monitoruj, czy kampania pozyskuje **nowe** osoby, a nie tylko dotyka obecnych obserwujących. Porównuj reklamy Advantage+ z ręczną kampanią przez 2–4 tygodnie, zanim zdecydujesz.
 
 #### 4. Testuj kreacje, nie grupy
 

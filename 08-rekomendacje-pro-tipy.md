@@ -132,14 +132,30 @@ Zanim wydasz złotówkę na reklamy, upewnij się, że Twój fanpage jest aktywn
 
 **Dlaczego?** Gdy ktoś zobaczy reklamę i kliknie na Twój profil, musi zobaczyć wiarygodną, aktywną stronę. Pusta strona = brak zaufania = zmarnowany klik.
 
-### Tip 2: Wykorzystaj Instagram równolegle
+### Tip 2: Instagram — kluczowy kanał dla psychodietetyków w Polsce
+
+Instagram jest **dominującym kanałem** dla polskich psychodietetyków. Demografia IG: 73% kobiet, największy segment 25–34 lat — idealne dopasowanie do grupy docelowej.
+
+**Polscy psychodietetycy na IG (inspiracja):**
+- [@monika.michalak_](https://instagram.com/monika.michalak_) — 80k obserwujących, specjalizacja: zajadanie emocji, efekt jo-jo. Komunikat: "Pomogę Ci uwolnić się od diety"
+- [@aprzybylowski.psychodietetyk](https://instagram.com/aprzybylowski.psychodietetyk) — 13k, zdrowa relacja z jedzeniem
+- [@wariu_jemy](https://instagram.com/wariu_jemy) — 5k+, zaburzenia odżywiania, 8+ lat doświadczenia
+
+**Co działa na IG psychodietetyków:**
+- Edukacja > sprzedaż — psychoedukacja, obalanie mitów, dzielenie się wiedzą
+- Język weight-neutral, anti-diet (unikaj: "clean eating", "guilty pleasures", "toksyczne jedzenie")
+- **Pokaż swoją twarz** — w usługach terapeutycznych pacjent "kupuje relację z osobą", nie anonimową usługę. Stockowe zdjęcia działają gorzej niż Twoje prawdziwe
+- Reels to priorytet — algorytm IG promuje Reels organicznie (darmowy zasięg)
 
 Meta Ads automatycznie wyświetla reklamy na Instagramie (Advantage+ Placements). Upewnij się, że:
 
 - Profil na Instagramie jest połączony z fanpage'em
-- Ma przynajmniej kilka postów
+- Ma przynajmniej kilka postów (minimum 9–12 — pełna "siatka")
 - Jest oznaczony jako konto biznesowe
-- Publikujesz Reels — algorytm IG kocha Reels i daje im darmowy zasięg
+- Bio zawiera: specjalizację + lokalizację + CTA ("Zapisz się na wizytę — link w bio")
+- Publikujesz Reels min. 2x/tydzień — algorytm IG nagradza regularność
+
+**Źródła:** [dietetycy.org.pl — Dietetyk na Instagramie](https://dietetycy.org.pl/dietetyk-na-instagramie-czy-to-juz-nieodlaczny-element-promocji/), [PID.edu.pl — Marketing dietetyka](https://pid.edu.pl/aktualnosci/marketing-dietetyka-jak-i-gdzie-reklamowac-swoje-uslugi/)
 
 ### Tip 3: Google Moja Firma — darmowa reklama
 
@@ -152,6 +168,16 @@ Zoptymalizuj wizytówkę Google:
 - [ ] Regularne aktualizacje (posty w Google)
 
 **Dlaczego?** Gdy ktoś wpisze "psychodietetyk Grójec" lub "dietetyk blisko mnie" w Google, wizytówka pojawi się na samej górze. To darmowe leady.
+
+### Tip 3b: Portale specjalistyczne — ZnanyLekarz / TwojPsycholog
+
+Uzupełnij profil na portalach, gdzie ludzie szukają specjalistów:
+
+- [ ] **ZnanyLekarz.pl** — profil psychodietetyka/dietetyka z opiniami, zdjęciem, opisem specjalizacji
+- [ ] **TwojPsycholog.pl** — jeśli oferujesz konsultacje psychologiczne
+- [ ] **Booksy** — jeśli chcesz system rezerwacji online (opcjonalnie)
+
+**Dlaczego?** Ludzie, którzy szukają na tych portalach, mają **najwyższy intent** — są gotowi umówić wizytę. To najwyższa jakość leadów (darmowych!).
 
 ### Tip 4: Buduj listę e-mail / SMS
 

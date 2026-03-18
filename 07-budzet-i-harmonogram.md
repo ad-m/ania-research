@@ -18,7 +18,11 @@ Przy 30 zł/dzień gabinet mieści się w typowym budżecie dla lokalnego biznes
 
 ### Co można uzyskać za 900 zł/miesiąc?
 
-Szacunki oparte na [benchmarkach dla polskiego rynku zdrowotnego](https://kcmobile.pl/baza-wiedzy/facebook-ads/benchmarki-facebook-ads-srednie-wyniki-branze/):
+Szacunki oparte na [benchmarkach dla polskiego rynku zdrowotnego](https://kcmobile.pl/baza-wiedzy/facebook-ads/benchmarki-facebook-ads-srednie-wyniki-branze/) i [case studies polskich kampanii healthcare](https://www.ministerstworeklamy.pl/blog/case-study/case-study-dokonala-kampania-meta-ads-na-pozyskiwanie-kontaktow-formularz/):
+
+> **Case study z PL (healthcare, Śląsk 2024):** Kampania leadowa z formularzem instant osiągnęła CPL **19,39 zł** przy 20 000+ wyświetleń i 28 leadach. 99% wyświetleń z targetowanego regionu. To wskazuje, że przy dobrze zoptymalizowanej kampanii CPL **15–40 zł jest osiągalny** dla lokalnych usług zdrowotnych B2C w Polsce.
+>
+> **Case study terapeuty (USA 2025):** Kampania wideo na Facebooku/Instagramie osiągnęła CPL **~70 zł** ($17), z leadami pojawiającymi się w ciągu 24h od startu ([PolyAds](https://polayads.com/5-facebook-ad-campaigns-that-work-for-therapists/)).
 
 | Metryka | Optymistyczny scenariusz | Realistyczny scenariusz | Pesymistyczny scenariusz |
 |---|---|---|---|
