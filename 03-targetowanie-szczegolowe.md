@@ -119,18 +119,61 @@ Wskazują na osoby otwarte na pracę z psychiką i emocjami:
 | Zainteresowanie | Typ |
 |---|---|
 | Kuchnia Lidla / Biedronki | Zainteresowanie |
-| Ewa Chodakowska | Zainteresowanie |
-| Anna Lewandowska | Zainteresowanie |
+| Intuitive eating | Zainteresowanie |
+| Emotional eating / Zajadanie emocji | Zainteresowanie |
 | Zdrowe przepisy | Zainteresowanie |
-| Fit lifestyle | Zainteresowanie |
+| Psychologia jedzenia | Zainteresowanie |
 
 ---
 
 ## 3.4 Propozycje segmentów odbiorców (5 wariantów)
 
-### Segment 1: "Dietowiczki" — kobiety zainteresowane dietą
+> **Zmiana priorytetów w 2025–2026**: W poprzednich latach targetowanie po zainteresowaniach było podstawą. Dziś Custom Audiences i Lookalike konsekwentnie dają lepsze wyniki (niższy CPL, wyższy CTR), ponieważ opierają się na rzeczywistych zachowaniach, nie deklaracjach. Poniższe segmenty są uszeregowane od najskuteczniejszego.
 
-**Najszerszy segment, punkt wyjścia kampanii.**
+### Segment 1 (priorytet najwyższy): "Zaangażowani z fanpage'a" — Custom Audience
+
+**Najcieplejsza grupa — już znają gabinet. Zacznij od niej.**
+
+| Parametr | Ustawienie |
+|---|---|
+| Typ | Custom Audience |
+| Źródło | Osoby zaangażowane w fanpage (reakcje, komentarze, udostępnienia, wiadomości) — ostatnie 180 dni |
+| Dodatkowy filtr | Lokalizacja: 25 km od Grójca (opcjonalnie) |
+| Szacowany zasięg | 1 500–3 000 |
+| Zastosowanie | Kampania BOFU — konwersja. Najwyższy zwrot z budżetu |
+
+> **Wymóg seed audience**: Aby Custom Audience była użyteczna, potrzebujesz min. 100–500 zaangażowanych osób. Przy 2 500 obserwujących i aktywnym fanpage'u powinieneś mieć wystarczającą bazę.
+
+### Segment 2: "Podobni do klientów" — Lookalike Audience
+
+**Rozszerzenie zasięgu na osoby podobne do obecnych zaangażowanych.**
+
+| Parametr | Ustawienie |
+|---|---|
+| Typ | Lookalike Audience |
+| Źródło | Custom Audience z zaangażowanych (Segment 1) |
+| Procent podobieństwa | 1% (najwęższy, najdokładniejszy) |
+| Lokalizacja | Polska (Meta dobierze z 25 km automatycznie) |
+| Szacowany zasięg | 20 000–40 000 |
+| Zastosowanie | Kampania TOFU/MOFU — dotarcie do nowych osób podobnych do fanów |
+
+### Segment 3: "Advantage+ Broad" — szerokie targetowanie z AI
+
+**Nowe podejście Meta (2025–2026) — pozwól algorytmowi znaleźć klientów.**
+
+| Parametr | Ustawienie |
+|---|---|
+| Lokalizacja | 25 km od Grójca |
+| Wiek | 28–50 lat |
+| Płeć | Kobiety |
+| Zainteresowania | Brak (lub jako "sugestie" w Advantage+ Audience) |
+| Advantage+ Audience | Włączone |
+| Szacowany zasięg | 30 000–50 000 |
+| Zastosowanie | Kampania TOFU z dobrą kreacją — algorytm sam znajdzie osoby reagujące na treści o jedzeniu/emocjach |
+
+### Segment 4: "Dietowiczki" — kobiety zainteresowane dietą (klasyczne targetowanie)
+
+**Segment uzupełniający — ręczne zainteresowania jako backup.**
 
 | Parametr | Ustawienie |
 |---|---|
@@ -139,45 +182,7 @@ Wskazują na osoby otwarte na pracę z psychiką i emocjami:
 | Płeć | Kobiety |
 | Zainteresowania | Dieta LUB Odchudzanie LUB Zdrowe odżywianie LUB Dietetyk |
 | Szacowany zasięg | 8 000–15 000 |
-| Zastosowanie | Kampanie TOFU/MOFU |
-
-### Segment 2: "Świadome emocjonalnie" — kobiety zainteresowane psychologią + zdrowiem
-
-**Segment psychodietetyczny — osoby otwarte na komponent psychologiczny.**
-
-| Parametr | Ustawienie |
-|---|---|
-| Lokalizacja | 25 km od Grójca |
-| Wiek | 25–45 lat |
-| Płeć | Kobiety |
-| Zainteresowania | (Psychologia LUB Rozwój osobisty LUB Mindfulness) ORAZ (Zdrowe odżywianie LUB Dieta) |
-| Szacowany zasięg | 3 000–8 000 |
-| Zastosowanie | Kampania na wiadomości (MOFU/BOFU) — najwyższa jakość leadów |
-
-### Segment 3: "Zaangażowani z fanpage'a" — Custom Audience
-
-**Najcieplejsza grupa — już znają gabinet.**
-
-| Parametr | Ustawienie |
-|---|---|
-| Typ | Custom Audience |
-| Źródło | Osoby zaangażowane w fanpage (reakcje, komentarze, udostępnienia, wiadomości) — ostatnie 180 dni |
-| Dodatkowy filtr | Lokalizacja: 25 km od Grójca (opcjonalnie) |
-| Szacowany zasięg | 1 500–3 000 |
-| Zastosowanie | Kampania BOFU — konwersja |
-
-### Segment 4: "Podobni do klientów" — Lookalike Audience
-
-**Rozszerzenie zasięgu na osoby podobne do obecnych zaangażowanych.**
-
-| Parametr | Ustawienie |
-|---|---|
-| Typ | Lookalike Audience |
-| Źródło | Custom Audience z zaangażowanych (Segment 3) |
-| Procent podobieństwa | 1% (najwęższy, najdokładniejszy) |
-| Lokalizacja | Polska (Meta dobierze z 25 km automatycznie) |
-| Szacowany zasięg | 20 000–40 000 |
-| Zastosowanie | Kampania TOFU — dotarcie do nowych osób |
+| Zastosowanie | Kampanie TOFU/MOFU — jeśli Advantage+ nie przynosi wyników |
 
 ### Segment 5: "Mężczyźni 40+" — segment testowy
 
@@ -229,6 +234,8 @@ Okres: Ostatnie 30–90 dni
 ```
 
 **Wykorzystanie:** Najsilniejszy retargeting — osoby, które sprawdzały cennik, są na etapie decyzji.
+
+> **Ograniczenie iOS 14.5+**: Od 2021 roku użytkownicy iPhone'ów mogą zablokować śledzenie przez Pixel (ATT — App Tracking Transparency). W praktyce oznacza to, że **30–40% ruchu z urządzeń Apple nie będzie widoczne** w Custom Audience ze strony. Aby uzupełnić te dane, rozważ wdrożenie **Conversion API (CAPI)** — mechanizmu server-side, który przesyła dane o konwersjach bezpośrednio z serwera do Meta, omijając ograniczenia przeglądarki. Bez CAPI retargeting i optymalizacja kampanii będą działać na niepełnych danych. Szczegóły techniczne → [06-optymalizacja-i-testy.md](06-optymalizacja-i-testy.md), sekcja 6.6.
 
 #### CA 4: Osoby, które obejrzały wideo (75%+)
 
@@ -329,6 +336,73 @@ KROK 5: Jeśli nie umówi wizyty → widzi reklamę "Wciąż mogę pomóc" (BOFU
 
 ✅ **Rozwiązanie:** Zainstaluj Pixel PRZED uruchomieniem jakiejkolwiek kampanii. To absolutny fundament.
 
+### Błąd 8: Poleganie wyłącznie na zainteresowaniach
+
+❌ **Problem:** Targetowanie tylko po zainteresowaniach ("Dieta", "Odchudzanie") staje się coraz mniej precyzyjne. Meta w 2025–2026 regularnie usuwa i konsoliduje kategorie zainteresowań, a ich dokładność spada.
+
+✅ **Rozwiązanie:** Priorytet: Custom Audiences i Lookalike > Advantage+ Broad > Zainteresowania. Używaj zainteresowań jako "sugestii" w Advantage+ Audience, nie jako jedynego filtra.
+
+### Błąd 9: Nieoznaczenie kampanii jako Special Ad Category
+
+❌ **Problem:** Reklama usług zdrowotnych (w tym psychodietetycznych) bez oznaczenia Special Ad Category może zostać odrzucona lub zablokowane konto reklamowe.
+
+✅ **Rozwiązanie:** W Ads Manager, przy tworzeniu kampanii, zaznacz "Zdrowie" w sekcji Special Ad Categories. Choć to ogranicza niektóre opcje targetowania, chroni przed zablokowaniem konta.
+
+### Błąd 10: Brak Conversion API (CAPI) obok Pixela
+
+❌ **Problem:** Sam Pixel traci skuteczność z powodu blokad iOS i adblockerów. Tracisz 30–40% danych o konwersjach, co pogarsza optymalizację kampanii.
+
+✅ **Rozwiązanie:** Wdróż Conversion API (CAPI) — przesyła dane server-side, omijając ograniczenia przeglądarki. Dla małego gabinetu najłatwiej przez wtyczkę WordPress (jeśli strona na WP) lub integrację Zapier. Szczegóły → [06-optymalizacja-i-testy.md](06-optymalizacja-i-testy.md), sekcja 6.6.
+
+---
+
+## 3.8 Zgodność z polityką Meta — Special Ad Categories
+
+### Czym są Special Ad Categories?
+
+Meta wymaga, aby reklamy dotyczące określonych tematów (zatrudnienie, mieszkalnictwo, kredyty, **zdrowie**) były oznaczone jako Special Ad Categories. Od [stycznia 2025](https://www.foxwelldigital.com/blog/sensitive-ad-categories-changes-coming-to-meta-in-2025) lista ta została rozszerzona o reklamy wellness i zdrowotne.
+
+### Czy psychodietetyka podlega?
+
+**Prawdopodobnie tak.** Psychodietetyka łączy:
+- Dietetykę (zdrowie fizyczne) → kategoria "Zdrowie"
+- Psychologię jedzenia (zdrowie psychiczne) → kategoria "Zdrowie"
+- Usługi zdrowotne (konsultacje specjalistyczne) → kategoria "Zdrowie"
+
+**Rekomendacja:** Oznacz kampanię jako Special Ad Category "Zdrowie" dla bezpieczeństwa. Lepiej mieć lekko ograniczone targetowanie niż zablokowane konto.
+
+### Co zmienia Special Ad Category?
+
+| Element | Bez SAC | Z SAC "Zdrowie" |
+|---|---|---|
+| **Wiek** | Dowolny zakres | Ograniczony (zazwyczaj 18+) |
+| **Płeć** | Można filtrować | Ograniczone w niektórych regionach |
+| **Zainteresowania zdrowotne** | Dostępne | Niektóre niedostępne |
+| **Lookalike Audiences** | Pełne | Działają, ale z mniejszą precyzją |
+| **Custom Audiences** | Pełne | Działają normalnie |
+| **Lokalizacja** | Punkt + promień | Punkt + promień (min. 15 km w niektórych przypadkach) |
+| **Optymalizacja pod Purchase** | Dostępna | **Niedostępna** |
+| **Optymalizacja pod Lead/Messages** | Dostępna | **Dostępna** ✅ |
+
+### Jak oznaczyć kampanię jako Special Ad Category
+
+1. Wejdź do **Ads Manager** → **Utwórz kampanię**
+2. Na samej górze kliknij **"Special Ad Categories"**
+3. Wybierz **"Health"** (Zdrowie)
+4. Kontynuuj tworzenie kampanii jak zwykle
+5. Niektóre opcje targetowania będą automatycznie wyszarzone — to normalne
+
+### Dozwolone cele kampanii z SAC "Zdrowie"
+
+| Cel | Status |
+|---|---|
+| Wiadomości (Messages) | ✅ Dozwolony |
+| Leady (Lead Generation) | ✅ Dozwolony |
+| Ruch (Traffic) | ✅ Dozwolony |
+| Zasięg / Rozpoznawalność | ✅ Dozwolony |
+| Konwersje (z optymalizacją pod Lead) | ✅ Dozwolony |
+| Konwersje (z optymalizacją pod Purchase) | ❌ Niedozwolony |
+
 ---
 
 ## Źródła
@@ -338,3 +412,7 @@ KROK 5: Jeśli nie umówi wizyty → widzi reklamę "Wciąż mogę pomóc" (BOFU
 - [Healthcare Lead Generation Case Study — Yatter](https://weareyatter.com/lead-generation-practice-case-study/)
 - [Healthcare Facebook Ads Strategies — Linear Design](https://lineardesign.com/blog/healthcare-facebook-ads/)
 - [5 Targeted Facebook Ad Campaigns for Healthcare — Barqar](https://www.barqar.com/2015/12/09/5-ways-to-use-facebook-ads-to-grow-your-practice/)
+- [How Meta's Targeting Works in 2025 — Brawn Media](https://brawnmediany.com/blog/how-metas-targeting-works-in-2025-a-complete-guide/)
+- [Sensitive Ad Categories Changes Coming to Meta in 2025 — Foxwell Digital](https://www.foxwelldigital.com/blog/sensitive-ad-categories-changes-coming-to-meta-in-2025)
+- [Meta Ad 2025-2026 Restrictions for Healthcare — EHM Results](https://ehmresults.com/meta-ad-2025-2026-restrictions-what-healthcare-practices-need-to-know/)
+- [iOS Privacy Changes Impact on Meta Ad Targeting — Adamigo](https://www.adamigo.ai/blog/ios-privacy-changes-impact-on-meta-ad-targeting)

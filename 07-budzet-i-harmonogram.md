@@ -22,34 +22,50 @@ Szacunki oparte na [benchmarkach dla polskiego rynku zdrowotnego](https://kcmobi
 
 | Metryka | Optymistyczny scenariusz | Realistyczny scenariusz | Pesymistyczny scenariusz |
 |---|---|---|---|
-| **Wyświetlenia** | 90 000 | 60 000 | 30 000 |
-| **Zasięg (unikalne osoby)** | 30 000 | 15 000 | 8 000 |
-| **Kliknięcia** | 600 | 350 | 200 |
-| **CPC** | 1,50 zł | 2,50 zł | 4,50 zł |
-| **Wiadomości/leady** | 30 | 15 | 8 |
-| **CPL** | 30 zł | 60 zł | 112 zł |
-| **Umówione wizyty** | 12 | 6 | 3 |
-| **CPA (koszt/wizytę)** | 75 zł | 150 zł | 300 zł |
+| **Wyświetlenia** | 80 000 | 50 000 | 25 000 |
+| **Zasięg (unikalne osoby)** | 25 000 | 12 000 | 6 000 |
+| **Kliknięcia** | 450 | 280 | 150 |
+| **CPC** | 2,00 zł | 3,20 zł | 6,00 zł |
+| **Wiadomości/leady** | 18 | 10 | 5 |
+| **CPL** | 50 zł | 90 zł | 180 zł |
+| **Umówione wizyty (konwersja ~30%)** | 6 | 3 | 1–2 |
+| **CPA (koszt/wizytę)** | 150 zł | 300 zł | 450–900 zł |
 
 ### Kalkulacja opłacalności
 
 ```
-Koszt pozyskania klienta (CPA): ~150 zł (realistyczny scenariusz)
+Koszt pozyskania klienta (CPA): ~300 zł (realistyczny scenariusz)
 Cena jednej konsultacji: ~150–250 zł
 Średnia liczba wizyt na klienta: 4–8 (psychodietetyka to proces)
-
-LTV (Lifetime Value) klienta:
-= 6 wizyt × 200 zł = 1 200 zł
-
-ROI z jednego klienta:
-= (1 200 zł - 150 zł) / 150 zł = 700%
-
-Przy 6 nowych klientach/miesiąc:
-= 6 × 1 200 zł = 7 200 zł przychodu z 900 zł wydatków
-= ROAS 8:1
 ```
 
-> **Wniosek:** Nawet przy konserwatywnych założeniach, kampania za 900 zł/miesiąc jest **wysoce opłacalna** dla gabinetu psychodietetycznego, ponieważ klienci wracają na wiele wizyt.
+**Scenariusz optymistyczny (bez dropout):**
+```
+LTV = 6 wizyt × 200 zł = 1 200 zł
+ROAS: (3 klientów × 1 200 zł) / 900 zł = 4:1
+```
+
+**Scenariusz realistyczny (z dropout 30–40% po 2. wizycie):**
+```
+Rozkład klientów:
+- 60% kończy po 3 wizytach: 3 × 200 zł = 600 zł
+- 30% kończy pełny cykl (6 wizyt): 6 × 200 zł = 1 200 zł
+- 10% rezygnuje po 1 wizycie: 1 × 200 zł = 200 zł
+
+Średnie LTV = 0.60 × 600 + 0.30 × 1200 + 0.10 × 200 = 740 zł
+
+Przy 3 nowych klientach/miesiąc (realistyczny scenariusz):
+= 3 × 740 zł = 2 220 zł przychodu z 900 zł wydatków
+= ROAS 2,5:1
+
+Po optymalizacji (miesiąc 3+, 5 klientów/miesiąc):
+= 5 × 740 zł = 3 700 zł przychodu z 900 zł wydatków
+= ROAS 4,1:1
+```
+
+> **Wniosek:** Realny ROAS to **2,5–4x** (nie 8x jak w idealistycznym modelu). Nadal jest to **opłacalna inwestycja**, szczególnie biorąc pod uwagę, że: (1) zadowoleni klienci polecają gabinet, generując darmowe leady, (2) LTV rośnie, jeśli klient wraca po latach z nowym problemem, (3) opinie klientów wzmacniają przyszłe kampanie.
+>
+> **Ważne:** Powyższe obliczenia zakładają pełną atrybucję. Ze względu na ograniczenia iOS i 7-dniowe okno atrybucji Meta (patrz [06-optymalizacja-i-testy.md](06-optymalizacja-i-testy.md), sekcja 6.6), część konwersji nie będzie widoczna w raportach. Prowadź ręczny tracking.
 
 ---
 
@@ -69,6 +85,8 @@ Przy 6 nowych klientach/miesiąc:
 - Szybko sprawdzisz, czy wiadomości Messenger działają
 - Zbierzesz Custom Audiences (zaangażowani) do późniejszego retargetingu
 - Po 2–4 tygodniach będziesz mieć dane do optymalizacji
+
+> **Uwaga o spójności z lejkiem:** Ten model startowy (100% na jedną kampanię BOFU) celowo różni się od docelowego podziału lejka 40/35/25% (TOFU/MOFU/BOFU) opisanego w [05-lejek-marketingowy.md](05-lejek-marketingowy.md). W miesiącu 1 **świadomie rezygnujemy z lejka**, aby: (1) zebrać dane o tym, co działa, (2) nie rozpraszać algorytmu przy minimalnym budżecie, (3) przetestować czy Messenger/Lead Ads generuje leady. Podział lejka wprowadzamy w Fazie 2, gdy mamy już Custom Audiences i doświadczenie.
 
 ### Faza 2: Miesiąc 2–3 (rozbudowa lejka)
 
@@ -137,7 +155,12 @@ Najlepszy scenariusz, ale wymaga dodatkowego budżetu (np. 1 100–1 200 zł/mie
 
 ## 7.4 Kalendarz sezonowy
 
-### Sezonowość popytu na usługi dietetyczne w Polsce
+> **Ważne zastrzeżenie:** Poniższy kalendarz to **hipoteza** oparta na typowych wzorcach branży wellness w Polsce i ogólnej wiedzy o zachowaniach konsumentów. Nie jest poparty danymi Google Trends ani historycznymi danymi kliniki. Zalecamy:
+> 1. Weryfikację z [Google Trends](https://trends.google.pl/) — wyszukaj "dietetyk", "odchudzanie", "dieta" dla Polski
+> 2. Po pierwszym kwartale kampanii — porównaj z własnymi danymi (liczba leadów/miesiąc)
+> 3. Traktuj ten kalendarz jako punkt wyjścia do testów, nie jako dogmat
+
+### Sezonowość popytu na usługi dietetyczne w Polsce (hipoteza)
 
 | Miesiąc | Popyt | Strategia budżetowa | Uwagi |
 |---|---|---|---|

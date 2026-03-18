@@ -34,19 +34,49 @@ Grupa docelowa (osoby z problemami z jedzeniem, nadwagą, zajadaniem emocji) wym
 
 ## 4.2 Przykłady nagłówków reklamowych
 
-### Nagłówki dla segmentu "nieudane diety / efekt jo-jo"
+### Limity znaków w Meta Ads
 
-1. **"Diety nie działają. I to nie Twoja wina."**
-2. **"Jeśli próbowałaś już wszystkiego — czas na inne podejście."**
-3. **"Przestań liczyć kalorie. Zacznij rozumieć, dlaczego jesz."**
-4. **"Efekt jo-jo? Psychodietetyka wyjaśnia, dlaczego to się powtarza."**
-5. **"Nie potrzebujesz kolejnej diety. Potrzebujesz zrozumienia."**
+> **Kluczowe:** Nagłówek reklamy na Facebooku/Instagramie to nie to samo co nagłówek posta. Masz ograniczoną przestrzeń:
 
-### Nagłówki dla segmentu "zajadanie emocji"
+| Element reklamy | Limit znaków | Uwagi |
+|---|---|---|
+| **Nagłówek (Headline)** | ~40 znaków | Więcej zostanie ucięte na mobilnych |
+| **Tekst główny (Primary Text)** | ~125 znaków przed "...więcej" | Pełny tekst do ~2 200 znaków |
+| **Opis (Description)** | ~30 znaków | Wyświetlany pod nagłówkiem |
+| **Tekst na grafice** | Max 20% powierzchni | Zalecenie Meta — więcej obniża zasięg |
 
-1. **"Jesz, kiedy jesteś smutna? To nie słabość — to nawyk, który można zmienić."**
-2. **"Jedzenie to nie problem. Jedzenie to rozwiązanie, które znalazłaś."**
-3. **"Zajadanie emocji ma swój powód. Pomogę Ci go zrozumieć."**
+Poniższe nagłówki są podzielone na **krótkie** (≤40 znaków, mieszczą się w Headline) i **długie** (do postów, Reels, tekstów głównych).
+
+### Nagłówki KRÓTKIE (≤40 znaków) — do Headline reklamy
+
+| Nagłówek | Znaki | Segment |
+|---|---|---|
+| "Diety nie działają." | 20 | Efekt jo-jo |
+| "To nie Twoja wina." | 19 | Efekt jo-jo |
+| "Jest inny sposób." | 18 | Uniwersalny |
+| "Przestań liczyć kalorie." | 25 | Efekt jo-jo |
+| "Zajadasz emocje?" | 17 | Emocjonalne jedzenie |
+| "To nie kwestia silnej woli." | 28 | Emocjonalne jedzenie |
+| "Psychodietetyk w Grójcu" | 24 | Lokalny |
+| "Schudnąć bez diety?" | 20 | Nadwaga |
+| "Lekarz kazał schudnąć?" | 24 | Mężczyźni 40+ |
+| "Nie musisz jechać do Warszawy." | 30 | Lokalny |
+
+### Nagłówki DŁUGIE — do tekstu głównego, postów, Reels
+
+**Segment "nieudane diety / efekt jo-jo":**
+
+1. **"Diety nie działają. I to nie Twoja wina."** (39 zn.)
+2. **"Jeśli próbowałaś już wszystkiego — czas na inne podejście."** (56 zn.)
+3. **"Przestań liczyć kalorie. Zacznij rozumieć, dlaczego jesz."** (56 zn.)
+4. **"Efekt jo-jo? Psychodietetyka wyjaśnia, dlaczego to się powtarza."** (62 zn.)
+5. **"Nie potrzebujesz kolejnej diety. Potrzebujesz zrozumienia."** (56 zn.)
+
+**Segment "zajadanie emocji":**
+
+1. **"Jesz, kiedy jesteś smutna? To nie słabość — to nawyk, który można zmienić."** (73 zn.)
+2. **"Jedzenie to nie problem. Jedzenie to rozwiązanie, które znalazłaś."** (64 zn.)
+3. **"Zajadanie emocji ma swój powód. Pomogę Ci go zrozumieć."** (56 zn.)
 4. **"Wieczorne napady na lodówkę? Jest na to sposób — i nie chodzi o silną wolę."**
 5. **"Przestań walczyć z jedzeniem. Zacznij rozumieć swoje emocje."**
 
@@ -196,10 +226,12 @@ Napisz wiadomość — odpowiem na Twoje pytania.
 - Lokalny element (np. "📍 Grójec")
 
 **Czego unikać:**
-- Zdjęć "przed i po" — naruszają politykę Meta
+- Zdjęć "przed i po" **ciała** — naruszają politykę Meta (zdjęcia porównujące wagę, sylwetkę)
 - Zdjęć wag, miarek, BMI — body shaming
 - Stockowych zdjęć uśmiechniętych ludzi z sałatką — nienaturalne
 - Zbyt dużo tekstu na grafice — obniża zasięg
+
+> **Niuans "przed i po":** Meta zabrania porównań CIAŁA (waga, sylwetka, wygląd), ale **pozwala** na porównania EMOCJONALNE. Dozwolone: "Przed: liczyła każdą kalorię, bała się jedzenia. Po: je intuicyjnie, bez poczucia winy." Zakazane: jakiekolwiek zdjęcia ciała z porównaniem. Ten niuans pozwala na skuteczny storytelling bez naruszania polityki.
 
 ### Format 2: Wideo (Reels / Stories / Feed)
 
@@ -264,7 +296,18 @@ W branży zdrowotnej zaufanie jest walutą. Opinie klientów:
 
 1. **Po zakończeniu współpracy** — poproś klienta o krótką opinię (pisemną lub nagranie wideo)
 2. **Zgoda na wykorzystanie** — zawsze z pisemną zgodą na publikację (RODO!)
-3. **Anonimizacja** — imię + pierwsza litera nazwiska lub tylko imię
+3. **Anonimizacja** — rozważ poziom anonimizacji (patrz uwaga RODO poniżej)
+
+> **Uwaga RODO — szczególnie ważna w małym mieście:** W Grójcu (~16 000 mieszkańców) "Anna K., 38 lat, Grójec" to praktycznie pełna identyfikacja. Rekomendujemy poziomy anonimizacji:
+>
+> | Poziom | Przykład | Kiedy stosować |
+> |---|---|---|
+> | **Pełna anonimizacja** | "Klientka, 38 lat" | Gdy klient chce prywatności |
+> | **Częściowa** | "Anna, okolice Grójca" | Gdy klient wyraził zgodę ustnie |
+> | **Imienna** | "Anna K., Grójec" | Tylko z pisemną zgodą RODO |
+> | **Pełna (wideo)** | Klient mówi do kamery | Najsilniejszy social proof — wymaga pisemnej zgody + informacji o celu wykorzystania |
+>
+> **Wzór zgody (minimum):** "Wyrażam zgodę na wykorzystanie mojej opinii w materiałach marketingowych gabinetu psychodietetycznego [nazwa] w mediach społecznościowych i reklamach. Rozumiem, że opinia będzie dostępna publicznie. Mogę wycofać zgodę w dowolnym momencie." + podpis + data.
 4. **Konkretność** — nie "Polecam!", a "Przez 15 lat walczyłam z wagą. Po 3 miesiącach z psychodietetykiem wreszcie rozumiem swoje jedzenie."
 
 ### Formaty opinii w reklamach

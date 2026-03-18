@@ -2,6 +2,8 @@
 
 ## 5.1 Czym jest lejek marketingowy?
 
+> **Ważne o atrybucji:** Domyślne okno atrybucji Meta to **7 dni po kliknięciu / 1 dzień po wyświetleniu**. Lejek opisany poniżej zakłada 3–4 tygodnie od pierwszego kontaktu do wizyty. Oznacza to, że **większość konwersji z etapów TOFU→MOFU nie będzie widoczna** w raportach Meta Ads Manager. Realne wyniki kampanii są LEPSZE niż to, co pokazują raporty. Dlatego kluczowe jest prowadzenie ręcznego trackingu leadów (patrz [06-optymalizacja-i-testy.md](06-optymalizacja-i-testy.md), sekcja 6.6).
+
 Lejek marketingowy to model opisujący drogę potencjalnego klienta od **pierwszego kontaktu z marką** do **podjęcia decyzji o zakupie** (w naszym przypadku: umówienia wizyty w gabinecie).
 
 Nie każdy, kto zobaczy reklamę, od razu umówi wizytę. Większość potrzebuje kilku "dotknięć" (touchpoints) z marką, zanim podejmie decyzję. Lejek pomaga zaplanować te dotknięcia w logicznej kolejności.
@@ -96,7 +98,7 @@ Dowiedz się więcej → [link / CTA "Dowiedz się więcej"]
 
 | Metryka | Cel |
 |---|---|
-| CPM (koszt 1000 wyświetleń) | < 15 zł |
+| CPM (koszt 1000 wyświetleń) | 15–25 zł |
 | Zasięg miesięczny | > 5 000 unikalnych osób |
 | ThruPlay (wideo obejrzane 15s+) | > 500/miesiąc |
 | CTR | > 1% |
@@ -303,6 +305,8 @@ Anna przychodzi na pierwszą konsultację.
 ---
 
 ## 5.6 Lejek uproszczony (na start)
+
+> **Uwaga o etapowości:** Poniższy uproszczony lejek to model **docelowy na miesiąc 2–3**. W miesiącu 1 rekomendujemy rozpoczęcie od jednej kampanii konwersyjnej (100% budżetu na Messenger/Lead Ads) — patrz [07-budzet-i-harmonogram.md](07-budzet-i-harmonogram.md), Faza 1. Dopiero po zebraniu danych i Custom Audiences wprowadzamy podział na 2 etapy.
 
 Jeśli pełny lejek 3-etapowy jest zbyt złożony na początku (przy budżecie 30 zł/dzień), rekomendujemy **wersję uproszczoną — lejek 2-etapowy**:
 

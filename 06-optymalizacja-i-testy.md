@@ -17,7 +17,7 @@
 | **CTR (Click-Through Rate)** | % osób, które kliknęły w reklamę | >1,5% (dobrze), >2,5% (świetnie) | Niski CTR = słaba kreacja lub złe targetowanie |
 | **CPC (Cost Per Click)** | Koszt jednego kliknięcia | 1,50–3,00 zł | >4 zł = drogo, optymalizuj |
 | **CPM (Cost Per Mille)** | Koszt 1000 wyświetleń | 8–20 zł | >30 zł = za wąska/konkurencyjna grupa |
-| **CPL (Cost Per Lead)** | Koszt pozyskania leada/wiadomości | 30–80 zł | >100 zł = problem z lejkiem |
+| **CPL (Cost Per Lead)** | Koszt pozyskania leada/wiadomości | 60–120 zł | >150 zł = problem z lejkiem |
 | **Częstotliwość (Frequency)** | Ile razy średnio osoba widziała reklamę | 1,5–3,0 w ciągu 7 dni | >4 = zmęczenie reklamą (ad fatigue) |
 | **Zasięg (Reach)** | Unikalne osoby, które widziały reklamę | Rośnie z tygodnia na tydzień | Spada = audience się wyczerpuje |
 
@@ -37,17 +37,20 @@
 ```
 ROAS = Przychód z wizyt / Koszt reklam
 
-Przykład:
+Przykład (realistyczny scenariusz):
 - Wydano: 900 zł/miesiąc
-- Pozyskano: 8 leadów → 4 wizyty (konwersja 50%)
+- Pozyskano: 10 leadów → 3 wizyty (konwersja 30%)
 - Wartość wizyty: 200 zł
-- Przychód: 4 × 200 zł = 800 zł
-- ROAS: 800/900 = 0,89x (na pierwszy rzut oka — strata!)
+- Przychód w miesiącu 1: 3 × 200 zł = 600 zł
+- ROAS miesiąc 1: 600/900 = 0,67x (na pierwszy rzut oka — strata!)
 
 ALE: klient wraca na kolejne wizyty!
-- Średnio 5 wizyt na klienta × 200 zł = 1 000 zł LTV
-- ROAS z uwzględnieniem LTV: (4 × 1000) / 900 = 4,4x ✅
+- Średnie LTV z uwzględnieniem dropout: ~740 zł (patrz kalkulacja w 07-budzet-i-harmonogram.md)
+- ROAS z uwzględnieniem LTV: (3 × 740) / 900 = 2,5x
+- Po optymalizacji (miesiąc 3+, konwersja 40%): (4 × 740) / 900 = 3,3x ✅
 ```
+
+> **Uwaga o konwersji lead→wizyta:** Wskaźnik 25–35% jest typowy dla pierwszych miesięcy kampanii. Po optymalizacji procesu odpowiedzi (szybkość reakcji na Messengerze, follow-up po 24h, skrypt rozmowy) można osiągnąć 40–50%. Kluczowy czynnik: **czas odpowiedzi** — odpowiedź w ciągu 1h zwiększa konwersję 3–5x w porównaniu do odpowiedzi po 24h.
 
 > **Kluczowy wniosek**: Przy usługach z retencją (jak psychodietetyka, gdzie klient wraca wielokrotnie), nawet pozornie drogi CPA jest opłacalny. Liczy się LTV (Lifetime Value), nie jednorazowa wizyta.
 
@@ -127,6 +130,12 @@ Tydzień 5+: Wygrywa lepsza wersja. Testuj kolejny element.
 
 ## 6.3 Optymalizacja przy małym budżecie — praktyczne wskazówki
 
+> **Kluczowe ograniczenie: "Learning Limited"**: Przy budżecie 30 zł/dzień kampania najprawdopodobniej będzie trwale w statusie **"Learning Limited"** — zbyt mało konwersji (2–5/tydzień) dla pełnej optymalizacji algorytmu Meta (wymóg: ~50/tydzień). To **normalne dla mikro-budżetów** i nie oznacza, że kampania nie działa. Workaroundy:
+> 1. **Optymalizuj pod szersze zdarzenie** — "Link Click" lub "Landing Page View" zamiast "Lead" (więcej zdarzeń = szybsze uczenie)
+> 2. **Konsoliduj do 1 zestawu reklam** — cały budżet w jednym miejscu, nie rozpraszaj
+> 3. **Włącz Advantage+ Audience** — algorytm ma więcej swobody w szukaniu konwersji
+> 4. **Porównuj z własną tabelką** — dane Meta mogą być niepełne; prowadź ręczny tracking leadów
+
 ### Zasada 1: Wyłączaj słabych, wzmacniaj mocnych
 
 Co tydzień sprawdzaj wyniki i:
@@ -135,7 +144,7 @@ Co tydzień sprawdzaj wyniki i:
 |---|---|
 | Reklama ma CTR < 0,5% po 7 dniach | Wyłącz — kreacja nie działa |
 | Reklama ma CTR > 2% i niski CPC | Zostaw — działa dobrze |
-| Zestaw reklam ma CPL > 100 zł po 14 dniach | Wyłącz lub zmień kreacje |
+| Zestaw reklam ma CPL > 150 zł po 14 dniach | Wyłącz lub zmień kreacje |
 | Częstotliwość > 4 w ciągu 7 dni | Odśwież kreację lub rozszerz audience |
 
 ### Zasada 2: Nie zmieniaj zbyt często
@@ -264,6 +273,86 @@ To pomoże Ci zrozumieć:
 
 ---
 
+## 6.6 Prywatność i śledzenie — iOS, Conversion API, atrybucja
+
+### Problem: iOS 14.5+ i App Tracking Transparency (ATT)
+
+Od kwietnia 2021 (iOS 14.5) użytkownicy iPhone'ów widzą popup pytający o zgodę na śledzenie przez aplikacje. **Około 75–85% użytkowników odmawia.** Dla kampanii Meta Ads oznacza to:
+
+| Aspekt | Wpływ |
+|---|---|
+| **Pixel Facebooka** | Widzi tylko ~60–70% konwersji z urządzeń Apple |
+| **Custom Audiences ze strony** | Mniejsze, mniej precyzyjne (brakuje danych iOS) |
+| **Retargeting** | Dociera do mniejszej grupy (nie widzi części odwiedzających) |
+| **Lookalike Audiences** | Mniejsza seed audience = mniej precyzyjny Lookalike |
+| **Raportowanie konwersji** | Zaniżone — realne wyniki są LEPSZE niż pokazuje Ads Manager |
+| **Okno atrybucji** | Skrócone do 7 dni klik / 1 dzień view (dawniej: 28 dni) |
+
+### Co to oznacza dla gabinetu psychodietetycznego?
+
+**Dobra wiadomość:** Kampanie na Messenger i Lead Ads są mniej dotknięte niż kampanie konwersyjne, ponieważ konwersja (wiadomość / formularz) dzieje się WEWNĄTRZ platformy Meta i nie wymaga Pixela.
+
+**Zła wiadomość:** Retargeting odwiedzających stronę (CA 3) i optymalizacja pod konwersje na stronie będą mniej skuteczne bez dodatkowych rozwiązań.
+
+### Conversion API (CAPI) — rozwiązanie problemu iOS
+
+**Czym jest CAPI?** Server-side API, które przesyła dane o konwersjach bezpośrednio z Twojego serwera do Meta. Działa niezależnie od przeglądarki i blokad iOS.
+
+**Dla kogo?** Dla każdego, kto ma stronę internetową i używa Pixela Facebooka.
+
+**Jak wdrożyć (od najprostszego)?**
+
+| Metoda | Trudność | Koszt | Dla kogo |
+|---|---|---|---|
+| **Wtyczka WordPress** (np. PixelYourSite, Facebook for WordPress) | Łatwa | 0–200 zł/rok | Strony na WordPress |
+| **Integracja Zapier/Make** | Średnia | 50–100 zł/mies. | Strony z formularzami |
+| **Google Tag Manager Server-Side** | Trudna | 100–200 zł/mies. (serwer) | Zaawansowani |
+| **Ręczna implementacja** | Trudna | Jednorazowa praca developera | Niestandardowe strony |
+
+**Dla gabinetu z budżetem 30 zł/dzień:** Jeśli strona jest na WordPress — wtyczka PixelYourSite (darmowa wersja) wystarczy na start. Jeśli nie — zainwestuj 200–400 zł w jednorazową konfigurację przez specjalistę.
+
+### Okna atrybucji — dlaczego raporty Meta zaniżają wyniki
+
+**Domyślne okno atrybucji Meta:** 7 dni po kliknięciu / 1 dzień po wyświetleniu.
+
+**Co to znaczy?** Jeśli klient:
+- Kliknął reklamę w poniedziałek
+- Przyszedł na stronę w środę
+- Napisał na Messengerze w następny poniedziałek (dzień 7) → **Meta policzy tę konwersję** ✅
+- Napisał na Messengerze w następny wtorek (dzień 8) → **Meta NIE policzy tej konwersji** ❌
+
+**Problem z lejkiem 4-tygodniowym:** Opisany w [05-lejek-marketingowy.md](05-lejek-marketingowy.md) lejek zakłada 4 tygodnie od pierwszego kontaktu do wizyty. Przy 7-dniowym oknie atrybucji **~60-75% konwersji z TOFU/MOFU nie będzie przypisane** do kampanii w raportach Meta.
+
+### Jak radzić sobie z niedokładną atrybucją?
+
+1. **Prowadź ręczny tracking** — prostą tabelkę (Excel/Google Sheets):
+
+| Data leada | Źródło | Imię | "Skąd o nas?" | Wizyta umówiona? | Wizyta odbyta? |
+|---|---|---|---|---|---|
+| 15.03 | Messenger | Anna | "Z reklamy na FB" | Tak | Tak |
+| 18.03 | Telefon | Marek | "Żona znalazła na FB" | Tak | Tak |
+| 20.03 | Formularz | Kasia | "Widziałam post" | Nie | — |
+
+2. **Pytaj klientów "Skąd o nas?"** — to darmowa metoda atrybucji. Dodaj pytanie w formularz lub na Messengerze.
+
+3. **Porównuj dane Meta z rzeczywistością** — co miesiąc porównuj:
+   - Ile leadów raportuje Meta?
+   - Ile leadów faktycznie otrzymałeś? (mogą być wyższe!)
+   - Stosunek "nieprzypisanych" leadów do przypisanych
+
+4. **Zmień okno atrybucji (opcjonalnie)** — w Ads Manager → Kolumny → Okno atrybucji → zmień na 28 dni po kliknięciu (jeśli dostępne). Pokaże pełniejszy obraz, ale **nie wszystkie konfiguracje na to pozwalają** (ograniczenie iOS).
+
+### Podsumowanie: prywatność a mikro-budżet
+
+| Priorytet | Działanie | Koszt | Wpływ |
+|---|---|---|---|
+| **1 (krytyczny)** | Prowadź ręczny tracking leadów | 0 zł | Pełny obraz konwersji |
+| **2 (wysoki)** | Pytaj "skąd o nas?" | 0 zł | Realna atrybucja |
+| **3 (średni)** | Zainstaluj CAPI (wtyczka WP) | 0–200 zł | +30–40% widocznych konwersji |
+| **4 (niski)** | Zmień okno atrybucji na 28 dni | 0 zł | Pełniejsze raporty |
+
+---
+
 ## Źródła
 
 - [Benchmarki Facebook Ads 2026 — kcmobile.pl](https://kcmobile.pl/baza-wiedzy/facebook-ads/benchmarki-facebook-ads-srednie-wyniki-branze/)
@@ -271,3 +360,6 @@ To pomoże Ci zrozumieć:
 - [Facebook Ads Benchmarks 2025 — WordStream](https://www.wordstream.com/blog/facebook-ads-benchmarks-2025)
 - [Jak czytać statystyki w Meta Ads Manager — Studio7P](https://studio7p.com/blog/jak-czytac-statystyki-w-meta-ads-manager/)
 - [Optymalny budżet w Meta Ads — Fallow Deer](https://www.fallowdeer.pl/post/optymalny-budzet-reklamowy-w-meta-ads)
+- [iOS Privacy Changes Impact on Meta Ad Targeting — Adamigo](https://www.adamigo.ai/blog/ios-privacy-changes-impact-on-meta-ad-targeting)
+- [Meta Ads, iOS 18 Privacy with AI-Driven Attribution — Dool Agency](https://dool.agency/meta-ads-ios-18-privacy-with-ai-driven-attribution/)
+- [Facebook Ads Learning Phase — Lebesgue](https://lebesgue.io/facebook-ads/facebook-ads-learning-phase-what-you-need-to-know-2024-update)

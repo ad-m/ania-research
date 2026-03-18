@@ -108,7 +108,13 @@ W każdej reklamie konwersyjnej (BOFU) podawaj:
 
 ❌ **Problem:** "Wydałem 400 zł i nic" → wyłączam reklamy.
 
-✅ **Rozwiązanie:** Minimum 4–6 tygodni na ocenę kampanii. Pierwsze 2 tygodnie to faza uczenia. Wyniki przychodzą w miesiącu 2–3.
+✅ **Rozwiązanie:** Minimum 4–6 tygodni na ocenę kampanii. Przy budżecie 30 zł/dzień faza uczenia trwa 7–21 dni (nie 3–7 dni jak przy dużych budżetach). Wyniki przychodzą w miesiącu 2–3.
+
+### Błąd 9: Ignorowanie prywatności iOS
+
+❌ **Problem:** Poleganie wyłącznie na Pixelu Facebooka do śledzenia konwersji. Od iOS 14.5+ (~75–85% użytkowników iPhone odmawia śledzenia) Pixel widzi tylko 60–70% ruchu z urządzeń Apple. Retargeting i optymalizacja działają na niepełnych danych.
+
+✅ **Rozwiązanie:** (1) Wdróż **Conversion API (CAPI)** obok Pixela — dane server-side uzupełniają braki. (2) Zbieraj **first-party data** — e-maile, telefony klientów, bezpośrednie pytanie "skąd o nas?". (3) Prowadź **ręczny tracking** leadów i wizyt — porównuj z danymi Meta. Szczegóły → [06-optymalizacja-i-testy.md](06-optymalizacja-i-testy.md), sekcja 6.6.
 
 ---
 
@@ -213,6 +219,15 @@ Meta ma rygorystyczną politykę wobec reklam dotyczących zdrowia i ciała. Klu
 | Nierealne obietnice zdrowotne | "Schudniesz 15 kg w miesiąc" | "Pomoże Ci zbudować zdrową relację z jedzeniem" |
 | Body shaming | "Wstydisz się swojego ciała?" | "Zasługujesz na spokojną relację z jedzeniem" |
 | Suplementy jako leki | Nie dotyczy (nie sprzedajesz suplementów) | — |
+| Brak oznakowania jako Special Ad Category | Reklamowanie usług zdrowotnych bez SAC | Oznacz kampanię jako "Zdrowie" w ustawieniach Special Ad Categories |
+
+### Special Ad Categories — obowiązkowe od 2025
+
+Od stycznia 2025 Meta wymaga, aby reklamy dotyczące zdrowia i wellness były oznaczone jako **Special Ad Category** ([szczegóły](https://ehmresults.com/meta-ad-2025-2026-restrictions-what-healthcare-practices-need-to-know/)). Psychodietetyka prawdopodobnie podlega tej kategorii.
+
+**Jak oznaczyć:** Ads Manager → Utwórz kampanię → na samej górze kliknij "Special Ad Categories" → wybierz "Health" (Zdrowie). To ogranicza niektóre opcje targetowania (np. szczegółowe zainteresowania zdrowotne), ale chroni przed zablokowaniem konta.
+
+**Co zmienia:** Nie można optymalizować pod Purchase/Add to Cart; można optymalizować pod Lead, Messages, Traffic, Awareness. Szczegółowa tabela → [03-targetowanie-szczegolowe.md](03-targetowanie-szczegolowe.md), sekcja 3.8.
 
 ### Jak pisać reklamy zgodne z polityką Meta
 

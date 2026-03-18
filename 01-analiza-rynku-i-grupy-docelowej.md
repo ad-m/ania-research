@@ -59,7 +59,7 @@ Psychodietetyka to dziedzina łącząca wiedzę z zakresu dietetyki i psychologi
 | Nowe wiadomości/leady | 8–15 | 15–25 |
 | Umówione wizyty z reklam | 3–6 | 8–12 |
 | CTR reklam | >1,5% | >2,0% |
-| Koszt za lead (CPL) | <80 zł | <50 zł |
+| Koszt za lead (CPL) | <120 zł | <80 zł |
 
 ---
 
@@ -196,6 +196,8 @@ Psychodietetyka to dziedzina łącząca wiedzę z zakresu dietetyki i psychologi
 - Przesadna medykalizacja ("zaburzenie", "choroba" — bez diagnozy)
 
 > **Uwaga dotycząca polityki Meta**: Reklamy na Facebooku nie mogą odwoływać się do osobistych atrybutów zdrowotnych użytkownika (np. "Masz nadwagę?", "Cierpisz na otyłość?"). Komunikaty muszą być formułowane w sposób ogólny, nie sugerujący, że wiemy o stanie zdrowia konkretnego użytkownika. Więcej w [polityce reklamowej Meta](https://www.facebook.com/policies/ads/).
+>
+> **Dodatkowo od stycznia 2025** Meta wprowadziła rozszerzone ograniczenia dla reklam zdrowotnych (Special Ad Categories). Psychodietetyka prawdopodobnie podlega tym ograniczeniom, co wpływa na dostępne opcje targetowania i optymalizacji kampanii. Szczegóły konfiguracji → [03-targetowanie-szczegolowe.md](03-targetowanie-szczegolowe.md), sekcja 3.8.
 
 ---
 

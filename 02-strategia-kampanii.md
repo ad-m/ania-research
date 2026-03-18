@@ -13,6 +13,18 @@ Przy budżecie ~30 zł/dzień i celu pozyskania klientów na wizyty stacjonarne,
 | **3** | **Ruch (Traffic)** | Kierowanie na stronę/landing page | Tylko jeśli istnieje dobra strona z formularzem rezerwacji |
 | **4** | **Rozpoznawalność (Awareness)** | Budowanie świadomości marki | Dla treści edukacyjnych TOFU; niski koszt dotarcia |
 
+### Ograniczenia Meta dla reklam zdrowotnych (2025–2026)
+
+> **Uwaga krytyczna**: Od stycznia 2025 Meta wprowadziła dodatkowe restrykcje dla reklam dotyczących zdrowia i wellness ([szczegóły](https://ehmresults.com/meta-ad-2025-2026-restrictions-what-healthcare-practices-need-to-know/)). Psychodietetyka łączy zdrowie z psychologią — prawdopodobnie podlega kategorii **Special Ad Categories**.
+
+**Co to oznacza w praktyce:**
+- **Nie można** optymalizować kampanii pod zdarzenia Purchase / Add to Cart / Complete Registration
+- **Można** optymalizować pod: Lead, Landing Page View, Link Click, Engagement, Messages
+- Targetowanie po szczegółowych zainteresowaniach zdrowotnych jest ograniczone
+- Kampanię należy oznaczyć jako Special Ad Category "Zdrowie" w Ads Manager
+
+**Praktyczna rekomendacja:** Cel "Wiadomości" i "Leady" działają bez ograniczeń. Cel "Konwersje" wymaga optymalizacji pod dozwolone zdarzenia. Szczegóły konfiguracji → [03-targetowanie-szczegolowe.md](03-targetowanie-szczegolowe.md), sekcja 3.8.
+
 ### Dlaczego "Wiadomości" jako cel nr 1?
 
 Dla lokalnego gabinetu zdrowotnego **kampania na wiadomości Messenger jest optymalnym wyborem** z kilku powodów:
@@ -22,8 +34,26 @@ Dla lokalnego gabinetu zdrowotnego **kampania na wiadomości Messenger jest opty
 3. **Wysoka jakość leadów** — osoba, która pisze wiadomość, jest bardziej zaangażowana niż ta, która tylko kliknie
 4. **Prosty w obsłudze** — nie potrzebujesz landing page'a, CRM-a ani integracji
 5. **Naturalność** — w małym mieście ludzie wolą "pogadać" niż wypełniać formularze
+6. **Zgodność z polityką Meta** — cel "Wiadomości" nie podlega ograniczeniom Special Ad Categories
 
 > **Case study branżowy**: Według [Practice Tech Solutions](https://practicetechsolutions.com/facebook-advertising-cases/), lokalne gabinety medyczne, które wcześniej nie korzystały z Facebook Ads, po uruchomieniu kampanii pozyskiwały kilkanaście leadów w pierwszym miesiącu, z usługami wartymi tysiące złotych. Kluczem był **precyzyjny targeting lokalny** i **bezpośredni kontakt z pacjentem**.
+
+### Messenger vs Lead Ads — porównanie
+
+Choć rekomendujemy Messenger jako cel nr 1, warto przetestować oba podejścia w miesiącu 1–2:
+
+| Cecha | Messenger (Wiadomości) | Lead Ads (Formularz) |
+|---|---|---|
+| **Próg wejścia dla klienta** | Bardzo niski — "napisz wiadomość" | Niski — auto-uzupełniany formularz |
+| **Open rate** | ~88% (wiadomości otwierane natychmiast) | N/D (formularz wypełniany od razu) |
+| **CTR w wiadomości** | ~56% (bardzo wysoki) | N/D |
+| **Jakość leada** | Wysoka — wymaga aktywnego zaangażowania | Średnia — auto-fill może generować "przypadkowe" leady |
+| **Średni CVR (healthcare)** | Brak precyzyjnych danych | ~7,72% ([WordStream 2025](https://www.wordstream.com/blog/facebook-ads-benchmarks-2025)) |
+| **Łatwość śledzenia** | Trudniejsza — ręczne notowanie z Messengera | Łatwiejsza — dane w Ads Manager, eksport do CRM |
+| **Automatyzacja** | Wymaga ręcznej odpowiedzi (lub chatbot) | Automatyczny e-mail/SMS po wypełnieniu |
+| **Najlepsze dla** | Małe gabinety z osobistym podejściem | Gabinety z systemem rezerwacji online |
+
+**Rekomendacja:** Zacznij od Messengera (miesiąc 1). W miesiącu 2 uruchom test A/B: Messenger vs Lead Form. Porównaj koszt za lead i konwersję lead→wizyta.
 
 ---
 
@@ -89,17 +119,34 @@ Każda kampania potrzebuje minimum **~50 konwersji tygodniowo**, żeby algorytm 
 
 Zamiast tworzyć 5 zestawów reklam po 6 zł/dzień, lepiej mieć 2 zestawy po 15 zł/dzień. Więcej danych = szybsza optymalizacja.
 
-#### 3. Advantage+ i automatyzacja
+#### 3. Advantage+ — kluczowa zmiana w 2025–2026
 
-Korzystaj z opcji **Advantage+ Placements** (automatyczne umiejscowienia) — algorytm Meta sam wybierze, gdzie reklama będzie najskuteczniejsza (Facebook feed, Instagram feed, Stories, Reels, itp.).
+Meta w 2025–2026 przeszła na model **Advantage+**, który obejmuje znacznie więcej niż tylko umiejscowienia:
+
+- **Advantage+ Placements** — algorytm sam wybiera, gdzie wyświetlić reklamę (Facebook feed, Instagram, Stories, Reels, itp.) ✅ Zawsze włączaj
+- **Advantage+ Audience** — algorytm sam dobiera grupę docelową na podstawie Twojej kreacji i danych Pixela. Zamiast ręcznego targetowania po zainteresowaniach, ustawiasz tylko lokalizację + wiek + płeć, a AI Meta robi resztę
+- **Advantage+ Creative** — automatyczna optymalizacja kreacji (przycinanie, dodawanie podpisów)
+
+> **Dlaczego to ważne**: Według [danych Meta z 2025](https://brawnmediany.com/blog/how-metas-targeting-works-in-2025-a-complete-guide/), kampanie z Advantage+ Audience mają o **9,7% niższy koszt per lead** niż kampanie z ręcznym targetowaniem. Przy budżecie 30 zł/dzień każdy procent optymalizacji się liczy.
+
+**Praktyczna rekomendacja dla 30 zł/dzień:** Włącz Advantage+ Audience z "sugestiami" (dawniej "szczegółowe targetowanie") zamiast sztywnych zainteresowań. Ustaw: lokalizacja 25 km od Grójca + kobiety 28–50 lat + jako sugestie dodaj 2–3 zainteresowania. Algorytm rozszerzy zasięg tam, gdzie widzi szansę na konwersję.
 
 #### 4. Testuj kreacje, nie grupy
 
 Przy małym budżecie lepiej testować **różne kreacje reklamowe** (teksty, grafiki, wideo) w ramach jednego zestawu reklam, niż tworzyć wiele zestawów z identycznymi reklamami dla różnych grup.
 
-#### 5. Cierpliwość w fazie uczenia
+#### 5. Cierpliwość w fazie uczenia — realistyczne oczekiwania
 
-Nowa kampania potrzebuje **3–7 dni** na przejście fazy uczenia. W tym czasie nie modyfikuj ustawień — daj algorytmowi czas na optymalizację. Zmiany "codziennie" to najczęstszy błąd.
+> **Ważne ograniczenie**: Meta wymaga ~50 konwersji tygodniowo na zestaw reklam, aby wyjść z fazy uczenia ([źródło](https://lebesgue.io/facebook-ads/facebook-ads-learning-phase-what-you-need-to-know-2024-update)). Przy budżecie 30 zł/dzień i realnym CPL 60–120 zł, osiągniesz **2–5 leadów tygodniowo** — daleko od 50. Kampania najprawdopodobniej pozostanie w statusie **"Learning Limited"**.
+
+**Czy to problem?** Nie aż tak, jak brzmi. "Learning Limited" oznacza, że algorytm optymalizuje wolniej, ale kampania nadal działa i generuje leady. Większość lokalnych mikro-budżetów pracuje w tym trybie.
+
+**Workaroundy:**
+1. **Optymalizuj pod szersze zdarzenie** — zamiast "Lead" optymalizuj pod "Link Click" lub "Landing Page View" (więcej zdarzeń = szybsze uczenie)
+2. **Konsoliduj do 1 zestawu reklam** — cały budżet w jednym miejscu
+3. **Włącz Advantage+ Audience** — algorytm ma więcej swobody w szukaniu konwersji
+4. **Nie modyfikuj ustawień przez minimum 7–14 dni** — każda zmiana resetuje fazę uczenia
+5. **Akceptuj "Learning Limited"** — to normalne przy mikro-budżetach; nie oznacza, że kampania nie działa
 
 ### Strategia "drabinkowa" (Ladder Strategy)
 
@@ -117,6 +164,8 @@ Miesiąc 3:  Kampania konwersyjna (15 zł) + świadomościowa (10 zł) + retarge
 
 Miesiąc 4+: Optymalizujesz i skalizujesz to, co działa najlepiej
 ```
+
+> **Uwaga o spójności**: Powyższa strategia drabinkowa jest rozwinięta szczegółowo (z konkretnymi kwotami i fazami) w [07-budzet-i-harmonogram.md](07-budzet-i-harmonogram.md). W razie rozbieżności, doc 07 jest dokumentem wiodącym dla podziału budżetu.
 
 ---
 

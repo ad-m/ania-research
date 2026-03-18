@@ -57,10 +57,10 @@ Kompletna strategia kampanii reklamowej Facebook Ads (Meta Ads) dla lokalnego ga
 
 | Metryka | Miesiąc 1 | Miesiąc 3 | Miesiąc 6 |
 |---|---|---|---|
-| Leady / miesiąc | 8–12 | 15–20 | 20–30 |
-| Wizyty / miesiąc | 3–5 | 6–10 | 10–15 |
-| CPL | 60–100 zł | 40–70 zł | 30–50 zł |
-| ROAS (z uwzgl. LTV) | 2–4x | 4–6x | 6–10x |
+| Leady / miesiąc | 5–10 | 10–18 | 15–25 |
+| Wizyty / miesiąc | 2–4 | 4–8 | 7–12 |
+| CPL | 90–180 zł | 60–100 zł | 50–80 zł |
+| ROAS (z uwzgl. LTV, po korekcie o dropout) | 1–2x | 2–4x | 3–5x |
 
 ---
 
@@ -82,7 +82,13 @@ Strategia oparta na:
 - [Ile kosztuje reklama na Facebooku — Divloy](https://divloy.pl/blog/ile-kosztuje-reklama-na-facebooku-cena-kampanii-meta-ads/)
 - [Facebook Ads Benchmarks 2025 — WordStream](https://www.wordstream.com/blog/facebook-ads-benchmarks-2025)
 - [Rural Healthcare Facebook Recruitment — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7681130/)
+- [Meta Ad 2025-2026 Restrictions for Healthcare — EHM Results](https://ehmresults.com/meta-ad-2025-2026-restrictions-what-healthcare-practices-need-to-know/)
+- [How Meta's Targeting Works in 2025 — Brawn Media](https://brawnmediany.com/blog/how-metas-targeting-works-in-2025-a-complete-guide/)
+- [Facebook Ads Learning Phase — Lebesgue](https://lebesgue.io/facebook-ads/facebook-ads-learning-phase-what-you-need-to-know-2024-update)
+- [iOS Privacy Changes Impact on Meta Ad Targeting — Adamigo](https://www.adamigo.ai/blog/ios-privacy-changes-impact-on-meta-ad-targeting)
 
 ---
 
-*Strategia przygotowana w marcu 2026. Zalecana aktualizacja co kwartał w oparciu o wyniki kampanii.*
+*Wyniki oparte na benchmarkach branżowych (healthcare PL, 2025–2026). Rzeczywiste wyniki zależą od jakości kreacji, szybkości odpowiedzi na leady, sezonowości i lokalnej konkurencji. ROAS uwzględnia korektę o dropout klientów (30–40% po 2. wizycie).*
+
+*Strategia przygotowana w marcu 2026. Zaktualizowana o: Special Ad Categories (Meta 2025), iOS/ATT privacy, Advantage+ Audience, realistyczne benchmarki CPL/ROAS. Zalecana aktualizacja co kwartał w oparciu o wyniki kampanii.*
